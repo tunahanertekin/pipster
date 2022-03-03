@@ -5,6 +5,7 @@ yellow=`tput setaf 3`
 blue=`tput setaf 4`
 magenta=`tput setaf 5`
 reset=`tput sgr0`
+export TERM=xterm
 while [ true ]
 do 
     echo "${blue}waiting for command...${reset}"; 
